@@ -1,0 +1,302 @@
+%-------------------------
+% Resume in Latex
+% Author : Vanamali matha
+% Based off of: https://github.com/vanamalimatha123/
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape Vanamali Matha} \\ \vspace{1pt}
+    {Vizag , India}  {DOB: 01/07/1998} \\ \vspace{1pt}
+     \vspace{1pt}
+    Infrastructure Services Analyst \textbf{- }ServiceNow Engineer with 3 years of Experience   \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ 7729056008 ~ \href{mailto:vanamalimatha48@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{vanamalimatha48@gmail.com}} ~ 
+    \href{ https://www.linkedin.com/in/vanamalimatha/}{\raisebox{-0.2\height}\faLinkedin\ \underline{ LinkedIn}}  ~
+    \href{https://github.com/vanamalimatha123/}{\raisebox{-0.2\height}\faGithub\ \underline{GitHub}}
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{EDUCATION}
+\resumeSubHeadingListStart
+\resumeSubheading
+  {MRPG College, Vizianagaram}{2018 – 2021}
+  {MBA - Human resources and Marketing - \textbf{CGPA} - \textbf{8.0}}{Vizianagaram,  India}
+\resumeSubHeadingListEnd
+ \vspace{-10pt}
+\resumeSubHeadingListStart
+\resumeSubheading
+  {Sri GCSR College , Rajam}{2015 -- 2018}
+  {B.Sc - Computer Science  - \textbf{CGPA} - \textbf{8.3}}{Rajam , India}
+\resumeSubHeadingListEnd
+
+ \vspace{-15pt}
+
+%------RELEVANT COURSEWORK-------
+\section{Relevant Coursework}
+    %\resumeSubHeadingListStart
+        \begin{multicols}{4}
+            \begin{itemize}[itemsep=-5pt, parsep=3pt]
+                \item\small Service-Now 
+                \item Ticketing (SNOW) 
+                \item ITIL Framework
+                \item  Change Management
+                \item Incident Management
+                \item Problem Management
+                \item  Asset Management
+                \item Workflows Process 
+                \item Service Catalog and SRM
+                \item CMDB Management 
+                \item Cloud Computing
+                \item Customer Service 
+                \item Linux (basic) 
+                \item JavaScript (basic)
+            \end{itemize}
+        \end{multicols}
+        \vspace*{2.0\multicolsep}
+    %\resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {DXC Technology}{Sep 2021 -- Jan 2024}
+      {ServiceNow Engineer}{Chennai, India}
+      \resumeItemListStart
+        \resumeItem{Engaged in delivering technical support to both internal teams and external clients, effectively addressing incidents and priority issues. Employed \textbf{ServiceNow (SNOW) }for \textbf{ticket management}, maintaining a robust database encompassing queries and resolutions with an accuracy rate of approximately 95\%.}
+        \resumeItem{Managed the complete lifecycle of various IT projects, including Custom Physical, Change to CI, Custom Virtual, and Hosting requests. Adhered to Request for Service (\textbf{RFS}) and Request for IT Modification (\textbf{RITM}) status changes, ensuring a seamless process flow. Achieved a 20\% improvement in project delivery time. }
+        \resumeItem{Collaborated with IT stakeholders to design and implement custom solutions within the ServiceNow platform. Customized modules and workflows, aligning them with industry best practices. This resulted in a 25\% improvement in \textbf{IT Service Management (ITSM) processes}. } 
+          \resumeItem{Utilized basic knowledge of JavaScript scripting language automation to minimize manual tasks and improve incident resolution times. Additionally, handled integrations between ServiceNow and other systems using JavaScript scripting languages, achieving a success rate of approximately 70\%. This resulted in a 25\% improvement in IT Service Management (ITSM) processes. } 
+       \resumeItem{Demonstrated expertise of 95\%, I have successfully customized and enhanced the ServiceNow platform. I have designed and implemented tailored solutions for \textbf{Incident Management, Problem Management, Change Management, and Service Catalog}, ensuring alignment with industry best practices. }
+        \resumeItem{Prepared and submitted weekly and monthly reports on incidents, changes, and service requests, ensuring transparency and accountability, with a 20\% improvement in reporting accuracy. Facilitated effective communication in \textbf{Change Advisory Board (CAB) meetings}, contributing to a 30\% reduction in change-related incidents. }
+        \resumeItem{Coordinate with resolving groups, support teams, vendors, and all third-party organizations promptly upon the occurrence of high-priority incidents, ensuring adherence to \textbf{Service Level Agreements (SLAs)} and minimal disruption to business operations.}
+        \resumeItem {Prepare monthly report of all major incidents along with other lower priority incident and service requests that were logged, resolved, pending considering \textbf{SLA}  to submit it to the Management and Client. Take necessary actions on the pending incident so that they can be resolved.}
+ \resumeItemListEnd
+
+
+\vspace{-15pt}
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+\vspace{-8pt}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: C, Java, HTML/CSS, JavaScript, SQL} \\
+     \textbf{Developer Tools/Technologies}{: Linux, GitHub, GCP Cloud, Docker, Jira and Visual Studio Code} \\
+{Basic Knowledge on scripting languages – JavaScript  \\
+    }}
+ \end{itemize}
+\vspace{-25pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+      \vspace{-5pt}
+      {\textbf{VMAX Decommissions Storage Array Migration}}
+  
+      \resumeItemListStart
+ I've Managed VMAX storage array decommissioning, overseeing ServiceNow modules \textbf{(RITMs , Incident , Problem , Change Management, Service Catalog, CMDB}), Actively participated in CAB meetings, obtained Go ahead from DB for array migration, confirmed no storage provision for servers, collaborated with DXC Storage team for array decommission approval, initiated \textbf{Decom RITM}, raised INC with VHS team for VM details, executed parallel tasks for logical decommission, obtained approval for lifecycle change to '\textbf{Retiring},' facilitated \textbf{Data Eraser, SAN and Network removal, Electrical removal, physical removal }from\textbf{ Data Center,} and finalized Decom change to set array lifecycle to '\textbf{Removed}.'}
+       
+ \resumeItemListEnd
+
+
+\vspace{-20pt}
+
+%-----------INVOLVEMENT---------------
+\section{Certifications}
+  \vspace{-5pt}
+            \resumeItemListStart
+                \resumeItem{ITIL v4 foundation certificate in IT service management}
+                \resumeItem{Google Cloud Certified Associate Cloud Engineer}
+                \resumeItem{Google Cloud Platform Professional Cloud Architect}
+                 \resumeItem{Microsoft Azure Fundamentals AZ-900}
+                  \resumeItem{Microsoft Azure Administrator AZ-104}
+                   \resumeItem{AWS Certified Cloud Practitioner}
+                       \resumeItemListEnd
+        
+    \resumeSubHeadingListEnd
+
+    
+\vspace{-25pt}
+
+    %-----------AWARDS/ACHIEVE---------------
+\section{Awards/Achievements}
+                \resumeItemListStart
+                \resumeItem{Recognized as the Best \textbf{Contributor} for a project}
+                \resumeItem{Received Inspiring \textbf{Performance recognition} from the \textbf{Account Delivery head}}
+                \resumeItem{Awarded an \textbf{Appreciation} Award by the \textbf{Google} Team at the company}
+                 \resumeItem{Received the \textbf{Champ Award} for delivering a critical project on time with excellence.}
+                  \resumeItem{Honored as a Top Voice on \textbf{LinkedIn} for Contributing articles}
+                    \resumeItem{I've been honored with the recognition of becoming an \textbf{AWS Community Builder}}
+                
+            \resumeItemListEnd
+        
+    \resumeSubHeadingListEnd
+
+\vspace{-20pt}
+
+   %-----------LANGUAGES---------------
+\section{Languages}
+                \resumeItemListStart
+                \resumeItem{English}
+                \resumeItem{Telugu}}
+                \resumeItem{Hindi}
+                               
+            \resumeItemListEnd
+        
+    \resumeSubHeadingListEnd
+
+\vspace{-20pt}
+
+   %-----------STRENGTHS---------------
+\section{Strengths}
+                \resumeItemListStart
+ \resumeItem {Can work well under pressure, Self-disciplined and Hard-working with great interpersonal and communication skills, Positive attitude. }
+                                               
+            \resumeItemListEnd
+        
+    \resumeSubHeadingListEnd
+
+
+
+
+
+
+
+
+
+
+
+\end{document}\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+
+\title{my-resume1}
+\author{Vanamali Matha}
+\date{February 2024}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+\end{document}
