@@ -1,8 +1,8 @@
 %-------------------------
 % Resume in Latex
 % Author : Vanamali matha
-% Based off of: https://github.com/vanamalimatha123/
-% License : MIT
+% Based off of: https://github.com/vanamalimatha123/ATS_Resume/blob/main/Resume_code
+% License: MIT
 %------------------------
 
 \documentclass[letterpaper,11pt]{article}
